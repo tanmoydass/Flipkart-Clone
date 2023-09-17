@@ -1,3 +1,3 @@
-<h2 text-align:center>
+<h1 align:center>
   Flipkart Clone Tanmoy Das
-</h2>
+</h1>
