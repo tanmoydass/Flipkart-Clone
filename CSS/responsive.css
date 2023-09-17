@@ -1,0 +1,160 @@
+@media (max-width: 768px) {
+    .items {
+        height: auto; 
+        display:grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .item{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .figdesign{
+        display: block;
+        margin-top: 3px;;
+    }
+    .ItemImage {
+        width: 92vw; 
+        height: auto; 
+    }
+    .ItemImage:hover{
+        width:95vw;
+        height: auto;
+    }
+
+    .figdesign {
+        font-size: 16px;
+    }
+    .figdesign:hover {
+        font-size: 17px;
+    }
+
+    .addvertise {
+        height: 30vh; 
+    }
+
+    .AddvertiseImage {
+        width: 100%; 
+        height: auto; 
+        margin-bottom: 8px;
+    }
+
+    .Moreitems, .Moreitems2 {
+        flex-direction: column; 
+        height: auto; 
+        justify-self: center;
+        align-items: center;
+    }
+
+    .Item2Image {
+        width: 92vw;
+        height: auto; 
+    }
+
+    .ItemsCap, .ItemsCap2 {
+        font-size: 14px; 
+    }
+}
+@media(max-width:920px){
+    .SearchImage{
+        display: none;
+    }
+    .ProjectHeader{
+        height: 28vh;
+        margin-bottom: 10px;;
+    }
+    .Navigation{
+        height: 29vh;
+    }
+    .NavigationUl{
+        height: 28vh;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .FlipkartImageLi{
+        width:10vw;
+        text-align: center;
+    }
+    .SearchBarLi{
+        width: 60vw;
+        text-align: center;
+    }
+    .LoginButtonLi{
+        width: 10vw;
+        text-align: center;
+    }
+    .SearchBar{
+        height: 6vh;
+        width: 264px;
+        border: 1px solid black;
+    }
+    .LoginButton{
+        width:50px;
+    }
+    .FlipkartImage{
+        width: 47px;
+    }
+    .SellerLi{
+        width:30vw;
+    }
+    .SelectMoreLi{
+        width:30vw;
+        text-align: center;
+    }
+    .CartLi{
+        width:20vw;
+        text-align: center;
+    }
+    .SelectMore{
+        width:50px;
+    }
+    .Item2Image:hover{
+        width:94vw;
+        height: auto;   
+    }
+}
+@media(max-width:320px){
+    .NavigationUl{
+        height: 28vh;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .SearchBarLi{
+        width:52vw;
+        text-align: center;
+    }
+    .FlipkartImageLi{
+        width:14vw;
+        text-align: center;
+    }
+    .LoginButtonLi{
+        width: 13vw;
+        text-align: center;
+    }
+    .LoginButton{
+        width:41px;
+    }
+    .SearchBar{
+        height: 6vh;
+        width: 162px;
+        border: 1px solid black;
+    }
+    .SellerLi{
+        width:35vw;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .SelectMoreLi{
+        width:20vw;
+        text-align: center;
+    }
+    .CartLi{
+        width:20vw;
+        text-align: center;
+    }
+}
